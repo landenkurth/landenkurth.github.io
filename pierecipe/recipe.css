@@ -1,0 +1,15 @@
+#maindiv { background-color:rgb(240, 240, 240); }
+/* background and background-color do the same thing */
+
+a {
+    font-weight: bold;
+    color:rgb(164, 164, 0);
+    /* could also write color align-self: 
+    color: #009c3c
+    */
+}
+body{
+    background-image: url("https:/silverwear.jpg//id/350/900");
+    background-repeat: no repeat;
+    background :center;    ;background-size: 100% 600%;
+}
