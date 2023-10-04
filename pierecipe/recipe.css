@@ -1,4 +1,4 @@
-#maindiv { background-color:rgb(240, 240, 240); }
+#maindiv { background-color:rgb(214, 228, 15); }
 /* background and background-color do the same thing */
 
 a {
@@ -17,7 +17,7 @@ body{
     font-family:Georgia, Garamond ;
 }
 h1,h2,h3,h4,h5{
-    color:rgb(233, 25, 94);
+    color:rgb(162, 190, 83);
 }
 p { color: darkslategray;} ol {
 color: rgb(164, 164, 0),
