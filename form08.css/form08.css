@@ -1,0 +1,19 @@
+
+body {
+	background: -webkit-linear-gradient(white, yellow); 
+    background: -o-linear-gradient(white, yellow); 
+    background: -moz-linear-gradient(white, yellow);
+    background: linear-gradient(white, yellow); 
+	background-attachment: fixed;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
