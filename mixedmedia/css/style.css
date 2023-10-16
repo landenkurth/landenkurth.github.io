@@ -1,0 +1,21 @@
+a {
+    font-weight: bold;
+    color:rgb(164, 164, 0);
+    /* could also write color align-self: 
+    color: #009c3c
+    */
+}
+body{
+    background-image: url("stockphoto.jpeg");
+    background-repeat: no repeat;
+    background :center;    ;background-size: 100% 600%;
+}
+{
+    font-family:Georgia, Garamond ;
+}
+h1,h2,h3,h4,h5{
+    color:rgb(162, 190, 83);
+}
+p { color: darkslategray;} ol {
+color: rgb(164, 164, 0),
+}
