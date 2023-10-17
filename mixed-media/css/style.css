@@ -19,3 +19,26 @@ h1,h2,h3,h4,h5{
 p { color: darkslategray;} ol {
 color: rgb(164, 164, 0),
 }
+table, td, th {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    padding:10px;
+}
+
+th{background: orange; }
+.rheader{background: rosybrown; }
+
+body{
+    background: linear-gradient(#fff, #2e9c02);
+    background-size: 100% 350%;
+}
+{ margin-bottom: 100px; }
+nav { width: 100%; }
+h1 { margin: 0 auto; text-align: center; }
+div {
+background: lightgrey;
+width: 300px;
+padding: 50px;
+border: 15px solid green;
+margin: 20px auto; 
+}
