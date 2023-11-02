@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS pseudoclasses </title>
+    <style>
+        *::selection {background: pink; }
+        *::-moz-selection {background: pink; }
+
+        a:link{
+            color:green;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        a:hover {
+            color: blue;
+            background: grey;
+            text-decoration: underline;
+        }
+
+        a:visited { color: black;}
+        a:active { color: red;}
+
+        input {
+            padding: 6px 12px 6px 12px;
+            border: 2px solid purple;
+            color:blue; 
+        }
+        input[type=text] {color :purple; }
+        input[type=text]:focus {
+            color: blueviolet;
+            border: 5px solid plum;
+        }
+        input[type=submit]:active{background: yellow; }
+        input[type=submit]:active {background: orangered;}
+
+        img {border: 3px solid transparent; }
+        img:hover {border: 3px solid red;}
+    </style>
+</head>
+<body>
+     <a href="#">link 1</a>
+     <a href="#">link 2</a>
+     <a href="#">link 3</a>
+     <br><br>
+
+     <input type="text" placeholder="spme text" />
+     <input type="submit" value="submit" />
+     <br/> <br/>
+
+     <img src="https://picsumphotos/200" alt="placeholder 1">
+     <img src="https://picsumphotos/id/1/200" alt="placeholder 2">
+     <img src="https://picsumphotos/id/10/200" alt="placeholder 3">
+</body>
+</html>
