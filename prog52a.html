@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="len">length:</label>
+    <input type="number" id="len" name="len">
+
+    <label for="width">width:</label>
+
+    <input type="number" id="width" name="wid">
+
+    <button onclick="
+var lenght = document.getelementbyid('len').value;
+var width = document.getelementbyid('wid').value;
+var area = lenght * width;
+var perim = 2 * length + 2 * width;
+document.writeln('area: ' +area +'perimiter:' +perim);
+    "">calculate area and perimiter </button>
+</body>
+</html>
